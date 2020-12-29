@@ -42,7 +42,7 @@ parser.add_option("--website", dest="website",help="choose a website")
 (options, args) = parser.parse_args()
 
 
-CHROME_DVR_DIR = 'C:\webdrivers\chromedriver.exe'
+CHROME_DVR_DIR = 'root\webdrivers\chromedriver.exe'
 
 def wizard():
     print (banner)
